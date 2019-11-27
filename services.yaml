@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  App\:
+    resource: './src/*'
+  App\SinglyImplementedInterface:
+    factory: ['@App\SingleImplementationFactory', 'create']
+  App\PublicService:
+    public: true
