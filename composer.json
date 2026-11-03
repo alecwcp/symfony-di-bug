@@ -8,6 +8,6 @@
         "php": "^7.2",
         "symfony/dependency-injection": "4.4",
         "symfony/config": "4.4",
-        "symfony/yaml": "4.4"
+        "symfony/yaml": "5.4.54"
     }
 }
